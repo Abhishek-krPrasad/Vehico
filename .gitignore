@@ -1,0 +1,53 @@
+# ==============================
+# 🚀 Git Ignore for Vehico
+# (Spring Boot Backend + React Frontend)
+# ==============================
+
+# 🔹 Ignore Node.js dependencies (Frontend)
+Vehico-frontend/node_modules/
+Vehico-frontend/build/
+
+# 🔹 Ignore Java compiled files (Backend)
+Vehico-backend/target/
+Vehico-backend/bin/
+
+# 🔹 Ignore Maven-specific files (Backend)
+Vehico-backend/.mvn/
+Vehico-backend/mvnw
+Vehico-backend/mvnw.cmd
+
+# 🔹 Ignore IDE & Editor settings
+.idea/
+.vscode/
+*.iml
+
+# 🔹 Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# 🔹 Ignore environment & secret files
+*.env
+Vehico-frontend/.env
+Vehico-backend/.env
+Vehico-backend/application.properties
+Vehico-backend/application.yml
+Vehico-backend/src/main/resources/application.properties
+Vehico-backend/src/main/resources/application.yml
+
+# 🔹 Ignore log & temp files
+Vehico-backend/logs/
+Vehico-backend/*.log
+Vehico-frontend/npm-debug.log*
+Vehico-frontend/yarn-debug.log*
+Vehico-frontend/yarn-error.log*
+Vehico-frontend/coverage/
+Vehico-frontend/.parcel-cache/
+Vehico-backend/*.tmp
+Vehico-backend/test-output/
+
+# 🔹 Ignore dependency caches (can be rebuilt)
+Vehico-backend/.mvn/
+Vehico-frontend/.next/
+Vehico-frontend/.turbo/
+Vehico-frontend/.cache/
+Vehico-frontend/.dist/
